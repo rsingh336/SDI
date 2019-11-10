@@ -1,4 +1,4 @@
-// Example program
+// Lab 1 -Vectors
 #include <iostream>
 #include <string>
 #include <vector>
@@ -23,10 +23,12 @@ int main()
   cin>>add_score;
   
   test_scores.push_back(add_score);
-  cout<<test_scores.size();
+  cout<<test_scores.size()<<endl;
+  cout<<test_scores.capacity()<<endl;
   
-   for( int a = 0; a < test_scores.size(); a = a + 1 ) {
+  for( int a = 0; a < test_scores.size(); a = a + 1 ) {
       cout << test_scores[a]<< endl;
    }
+  
   
 }
