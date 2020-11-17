@@ -1,0 +1,715 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\comment begin body}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mainwindow.cpp\par \pard\plain 
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 \par
+00005 {\cf21 #include "mainwindow.h"}\par
+00006 {\cf21 #include "ui_mainwindow.h"}\par
+00007 {\cf21 #include "shapes.h"}\par
+00008 {\cf21 #include "annotations.h"}\par
+00009 {\cf21 #include <QFileDialog>}\par
+00010 {\cf21 #include <QListWidgetItem>}\par
+00011 {\cf21 #include <QtCore/QDateTime>}\par
+00012 {\cf21 #include <QInputDialog>}\par
+00013 \par
+00015 MainWindow::MainWindow(QWidget *parent)\par
+00016     : QMainWindow(parent)\par
+00017     , ui(new Ui::MainWindow)\par
+00018 \{\par
+00019     ui->setupUi({\cf17 this});\par
+00020 \}\par
+00021 \par
+00023 MainWindow::~MainWindow()\par
+00024 \{\par
+00025     {\cf17 delete} ui;\par
+00026 \}\par
+00027 \par
+00029 {\cf18 void} MainWindow::on_but_openImage_clicked()\par
+00030 \{\par
+00031     QString filePath = findPath();\par
+00032 \par
+00033             {\cf19 if} (QString::compare(filePath,QString()) != 0)\{\par
+00034                 QImage image;\par
+00035                 {\cf18 bool} valid = image.load(filePath); \par
+00036                 {\cf19 if} (valid)\{\par
+00037                     displayImage(image);\par
+00038                     add_to_combobox(filePath); \par
+00039                     QFileInfo fi(filePath);\par
+00040                     QString fileName = fi.fileName(); \par
+00041                     index_image.append(filePath);\par
+00042                     mylist_Image.append(fileName);\par
+00043                     removeDuplicates(); \par
+00044                     index_image.removeDuplicates();\par
+00045                     ui->listWidget_images->clear();\par
+00046                     ui->listWidget_images->addItems(mylist_Image);\par
+00047                     mylist_Dates.append(filePath);\par
+00048                 \}\par
+00049             \}\par
+00050 \}\par
+00051 \par
+00053 {\cf18 void} MainWindow::displayImage(QImage image)\{\par
+00054     ui->label_DisplayImage->clear();\par
+00055     image = image.scaledToWidth(ui->label_DisplayImage->width(),Qt::SmoothTransformation); \par
+00056     ui->label_DisplayImage->setPixmap(QPixmap::fromImage(image));\par
+00057 \par
+00058 \}\par
+00059 \par
+00061 {\cf18 void} MainWindow::removeDuplicates()\par
+00062 \{\par
+00063     mylist_Image.removeDuplicates();\par
+00064 \}\par
+00065 \par
+00067 {\cf18 void} MainWindow::SortImages_Ascending()\par
+00068 \{\par
+00070     {\cf19 if}(ui->listWidget_images->count() == 0) {\cf19 return} QMessageBox::about({\cf17 this}, {\cf22 "Image list empty!"}, {\cf22 "Please choose an image file."});\par
+00071     {\cf19 try} \par
+00072     \{\par
+00073         ui->listWidget_images->clear();\par
+00074         {\cf18 int} size;\par
+00075         size = mylist_Image.count();\par
+00077         {\cf19 for}({\cf18 int} i=0; i< size; i++)\par
+00078             \{\par
+00079                 {\cf19 for}({\cf18 int} j=0; j< size-1; j++)\par
+00080                 \{\par
+00081                     {\cf19 if}(mylist_Image[j]>mylist_Image[j+1])\par
+00082                     \{\par
+00083                         QString temp;\par
+00084                         temp = mylist_Image[j];\par
+00085                         mylist_Image[j] = mylist_Image[j+1];\par
+00086                         mylist_Image[j+1] = temp;\par
+00087                     \}\par
+00088                 \}\par
+00089             \}\par
+00090         ui->listWidget_images->addItems(mylist_Image);\par
+00091     \} {\cf19 catch} (...) \{\par
+00092 \par
+00093         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00094     \}\par
+00095 \}\par
+00096 \par
+00098 {\cf18 void} MainWindow::SortImages_Descending()\par
+00099 \{\par
+00101     {\cf19 if}(ui->listWidget_images->count() == 0) {\cf19 return} QMessageBox::about({\cf17 this}, {\cf22 "Image list empty!"}, {\cf22 "Please choose an image file."});\par
+00102     {\cf19 try} \par
+00103     \{\par
+00104         ui->listWidget_images->clear();\par
+00105         {\cf18 int} size;\par
+00106         size = mylist_Image.count();\par
+00108         {\cf19 for}({\cf18 int} i=0; i< size; i++)\par
+00109             \{\par
+00110                 {\cf19 for}({\cf18 int} j=0; j< size-1; j++)\par
+00111                 \{\par
+00112                     {\cf19 if}(mylist_Image[j]<mylist_Image[j+1])\par
+00113                     \{\par
+00114                         QString temp;\par
+00115                         temp = mylist_Image[j];\par
+00116                         mylist_Image[j] = mylist_Image[j+1];\par
+00117                         mylist_Image[j+1] = temp;\par
+00118                     \}\par
+00119                 \}\par
+00120             \}\par
+00121         ui->listWidget_images->addItems(mylist_Image);\par
+00122     \} {\cf19 catch} (...) \{\par
+00123         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00124     \}\par
+00125 \}\par
+00126 \par
+00128 {\cf18 void} MainWindow::SortDates_Ascending()\par
+00129 \{\par
+00131     {\cf19 if}(ui->listWidget_images->count() == 0) {\cf19 return} QMessageBox::about({\cf17 this}, {\cf22 "Image list empty!"}, {\cf22 "Please choose an image file."});\par
+00132     {\cf19 try} \par
+00133     \{\par
+00134         ui->listWidget_images->clear();\par
+00135         {\cf18 int} size;\par
+00136         size = mylist_Image.count();\par
+00137         {\cf19 for}({\cf18 int} i=0; i< size; i++)\par
+00138         \{\par
+00139             QFileInfo info(mylist_Dates[i]);\par
+00140             QDateTime created = info.created();\par
+00141             created_At.append(created.toString());\par
+00142         \}\par
+00144         {\cf19 for}({\cf18 int} i=0; i<size; i++)\par
+00145         \{\par
+00146             {\cf19 for}({\cf18 int} j=0; j<size-1; j++)\par
+00147             \{\par
+00148                 {\cf19 if}(created_At[j] > created_At[j+1])\par
+00149                 \{\par
+00150                     QString temp;\par
+00151                     temp = created_At[j];\par
+00152                     created_At[j] = created_At[j+1];\par
+00153                     created_At[j+1] = temp;\par
+00154                 \}\par
+00155             \}\par
+00156         \}\par
+00157         ui->listWidget_images->addItems(created_At);\par
+00158     \} {\cf19 catch} (...) \{\par
+00159          qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00160     \}\par
+00161 \par
+00162 \}\par
+00163 \par
+00165 {\cf18 void} MainWindow::SortDates_Descending()\par
+00166 \{\par
+00168     {\cf19 if}(ui->listWidget_images->count() == 0) {\cf19 return} QMessageBox::about({\cf17 this}, {\cf22 "Image list empty!"}, {\cf22 "Please choose an image file."});\par
+00169     {\cf19 try} \par
+00170     \{\par
+00171         ui->listWidget_images->clear();\par
+00172         {\cf18 int} size;\par
+00173         size = mylist_Image.count();\par
+00174         {\cf19 for}({\cf18 int} i=0; i< size; i++)\par
+00175         \{\par
+00176             QFileInfo info(mylist_Dates[i]);\par
+00177             QDateTime created = info.created();\par
+00178             created_At.append(created.toString());\par
+00179         \}\par
+00181         {\cf19 for}({\cf18 int} i=0; i<size; i++)\par
+00182         \{\par
+00183             {\cf19 for}({\cf18 int} j=0; j<size-1; j++)\par
+00184             \{\par
+00185                 {\cf19 if}(created_At[j] < created_At[j+1])\par
+00186                 \{\par
+00187                     QString temp;\par
+00188                     temp = created_At[j];\par
+00189                     created_At[j] = created_At[j+1];\par
+00190                     created_At[j+1] = temp;\par
+00191                 \}\par
+00192             \}\par
+00193         \}\par
+00194         ui->listWidget_images->addItems(created_At);\par
+00195     \} {\cf19 catch} (...) \{\par
+00196         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00197     \}\par
+00198 \}\par
+00199 \par
+00201 QString MainWindow::findPath()\par
+00202 \{\par
+00203 \par
+00205     QString filePath = QFileDialog::getOpenFileName({\cf17 this},\par
+00206                                                     tr({\cf22 "Open Image"}),\par
+00207                                                     {\cf22 "/Users/RishiSingh/images"},\par
+00208                                                     {\cf22 "All Image Files (*.jpg *.png);;jpg File (*.jpg);; png File(*.png)"}\par
+00209                                                         );\par
+00210     {\cf19 return} filePath;\par
+00211 \}\par
+00212 \par
+00214 {\cf18 void} MainWindow::add_to_combobox(QString fileName)\par
+00215 \{\par
+00216     comboBox_imagesOrder.append(fileName);\par
+00217     comboBox_imagesOrder.removeDuplicates();\par
+00218     ui->comboBoxImages->clear();\par
+00219     ui->comboBoxImages->addItems(comboBox_imagesOrder);\par
+00220 \}\par
+00221 \par
+00223 {\cf18 void} MainWindow::add_to_listWidget(QString fileName)\par
+00224 \{\par
+00225     ui->listWidget_images->addItem(fileName);\par
+00226 \par
+00227 \}\par
+00228 \par
+00230 {\cf18 void} MainWindow::on_but_CreateClass_clicked()\par
+00231 \{\par
+00232     QString name;\par
+00233         QString className;\par
+00234         className = ui ->lineEdit_className->text();\par
+00235 \par
+00236         {\cf19 if} (className.isEmpty()) {\cf19 return} QMessageBox::about({\cf17 this},{\cf22 "Enter class name."},{\cf22 "Please enter a class name to create a class."});\par
+00237         {\cf19 try} \par
+00238         \{\par
+00239             mylist_Classes.append(className);\par
+00240             ui->listWidget_classes->addItem(className);\par
+00241             ui->lineEdit_className->clear();\par
+00242         \}{\cf19 catch}(...)\par
+00243         \{\par
+00244             qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00245         \}\par
+00246 \}\par
+00247 \par
+00248 \par
+00249 \par
+00251 {\cf18 void} MainWindow::on_but_RemoveClass_clicked()\par
+00252 \{\par
+00254    {\cf19 if}(ui->listWidget_classes->count() == 0) {\cf19 return} QMessageBox::about({\cf17 this}, {\cf22 "Class list is empty!"}, {\cf22 "Please enter a class."});\par
+00255    {\cf19 try} \par
+00256    \{\par
+00258        QList<QListWidgetItem*> items = ui->listWidget_classes->selectedItems();\par
+00259        {\cf19 foreach}(QListWidgetItem* item, items)\{\par
+00260            {\cf18 int} remove_val;\par
+00261            remove_val = ui->listWidget_classes->currentRow();\par
+00262            {\cf17 delete} ui->listWidget_classes->takeItem(ui->listWidget_classes->row(item));\par
+00263            mylist_Classes.removeAt(remove_val);\par
+00264 \par
+00265        \}\par
+00266    \} {\cf19 catch} (...)\par
+00267    \{\par
+00268        qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00269    \}\par
+00270 \}\par
+00271 \par
+00273 {\cf18 void} MainWindow::on_CreateClassFile_clicked()\par
+00274 \{\par
+00276     {\cf19 if}(ui->listWidget_classes->count() == 0) {\cf19 return} QMessageBox::about({\cf17 this}, {\cf22 "Class list is empty!"}, {\cf22 "Please enter a class."});\par
+00277     {\cf19 try} \par
+00278     \{\par
+00280         QString name = QInputDialog::getText({\cf17 this}, tr({\cf22 "QInputDialog::getText()"}), tr({\cf22 "File Name:"}), QLineEdit::Normal);\par
+00281             QDir().mkdir({\cf22 "/Users/RishiSingh/MyClassFolder"});\par
+00282             QString fileName = {\cf22 "/Users/RishiSingh/MyClassFolder/"};\par
+00283             QFile file(fileName + name + {\cf22 ".names"});\par
+00284             {\cf19 if}(file.open(QIODevice::WriteOnly | QIODevice::Text | QIODevice::Append))\par
+00285                \{\par
+00286                    QTextStream stream(&file);\par
+00287                    {\cf19 for}({\cf18 int} i= 0; i < ui->listWidget_classes->count(); i++)\par
+00288                    \{\par
+00289                        QString className = ui->listWidget_classes->item(i)->text();\par
+00290                        stream<<{\cf22 " "}<< className<<endl;\par
+00291                    \}\par
+00292                \}\par
+00293                file.close();\par
+00294     \} {\cf19 catch} (...)\par
+00295     \{\par
+00296         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00297     \}\par
+00298 \}\par
+00300 {\cf18 void} MainWindow::on_pushButton_addtext_clicked()\par
+00301 \{\par
+00302     QList<QListWidgetItem*> items = ui->listWidget_classes->selectedItems(); \par
+00303     {\cf19 foreach}(QListWidgetItem* item, items)\{\par
+00304         {\cf18 int} val;\par
+00305         QString class_text; \par
+00306         val = ui->listWidget_classes->currentRow();\par
+00307         class_text = mylist_Classes.at(val);\par
+00308         ui->label_DisplayImage->class_text = class_text; \par
+00309     \}\par
+00310 \}\par
+00311 \par
+00312 \par
+00314 {\cf18 void} MainWindow::SortClasses_Ascending()\par
+00315 \{\par
+00317     {\cf19 if}(ui->listWidget_classes->count() == 0) {\cf19 return} QMessageBox::about({\cf17 this}, {\cf22 "Class list is empty!"}, {\cf22 "Please enter a class."});\par
+00318     {\cf19 try} \par
+00319     \{\par
+00320         ui->listWidget_classes->clear();\par
+00321         {\cf18 int} size;\par
+00322         size = mylist_Classes.count();\par
+00324         {\cf19 for}({\cf18 int} i=0; i<size; i++)\par
+00325         \{\par
+00326             {\cf19 for}({\cf18 int} j=0; j<size-1; j++)\par
+00327             \{\par
+00328                 {\cf19 if}(mylist_Classes[j] > mylist_Classes[j+1])\par
+00329                 \{\par
+00330                     QString temp;\par
+00331                     temp = mylist_Classes[j];\par
+00332                     mylist_Classes[j] = mylist_Classes[j+1];\par
+00333                     mylist_Classes[j+1] = temp;\par
+00334                 \}\par
+00335             \}\par
+00336         \}\par
+00337         ui->listWidget_classes->addItems(mylist_Classes);\par
+00338     \} {\cf19 catch} (...)\par
+00339     \{\par
+00340         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00341     \}\par
+00342 \}\par
+00343 \par
+00345 {\cf18 void} MainWindow::SortClasses_Descending()\{\par
+00346 \par
+00348     {\cf19 if}(ui->listWidget_classes->count() == 0) {\cf19 return} QMessageBox::about({\cf17 this}, {\cf22 "Class list is empty!"}, {\cf22 "Please enter a class."});\par
+00349     {\cf19 try} \par
+00350     \{\par
+00351         ui->listWidget_classes->clear();\par
+00352         {\cf18 int} size;\par
+00353         size = mylist_Classes.count();\par
+00355         {\cf19 for}({\cf18 int} i=0; i<size; i++)\par
+00356         \{\par
+00357             {\cf19 for}({\cf18 int} j=0; j<size-1; j++)\par
+00358             \{\par
+00359                 {\cf19 if}(mylist_Classes[j] < mylist_Classes[j+1])\par
+00360                 \{\par
+00361                     QString temp;\par
+00362                     temp = mylist_Classes[j];\par
+00363                     mylist_Classes[j] = mylist_Classes[j+1];\par
+00364                     mylist_Classes[j+1] = temp;\par
+00365                 \}\par
+00366             \}\par
+00367         \}\par
+00368         ui->listWidget_classes->addItems(mylist_Classes);\par
+00369     \} {\cf19 catch} (...)\par
+00370     \{\par
+00371         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00372     \}\par
+00373 \}\par
+00374 \par
+00376 {\cf18 void} MainWindow::on_checkBox_Date_clicked({\cf18 bool} checked)\par
+00377 \{\par
+00379     {\cf19 if}(ui->listWidget_images->count() == 0) {\cf19 return} QMessageBox::about({\cf17 this}, {\cf22 "Image list empty!"}, {\cf22 "Please choose an image file."});\par
+00380     {\cf19 try} \par
+00381     \{\par
+00382         {\cf19 if}(checked == {\cf17 true}) \{\par
+00383             ui->checkBox_File->setChecked({\cf17 false});\par
+00384         \}\par
+00385         {\cf19 else}\{\par
+00386             ui->checkBox_File->setChecked({\cf17 true});\par
+00387         \}\par
+00388     \} {\cf19 catch} (...) \{\par
+00389         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00390     \}\par
+00391 \}\par
+00392 \par
+00394 {\cf18 void} MainWindow::on_checkBox_File_clicked({\cf18 bool} checked)\par
+00395 \{\par
+00397     {\cf19 if}(ui->listWidget_images->count() == 0) {\cf19 return} QMessageBox::about({\cf17 this}, {\cf22 "Image list empty!"}, {\cf22 "Please choose an image file."});\par
+00398     {\cf19 try} \par
+00399     \{\par
+00400         {\cf19 if}(checked == {\cf17 true})\{\par
+00401             ui->checkBox_Date->setChecked({\cf17 false});\par
+00402         \}\par
+00403         {\cf19 else}\{\par
+00404             ui->checkBox_Date->setChecked({\cf17 true});\par
+00405         \}\par
+00406     \} {\cf19 catch} (...) \{\par
+00407         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00408     \}\par
+00409 \}\par
+00410 \par
+00412 {\cf18 void} MainWindow::on_sort_Ascending_clicked()\par
+00413 \{\par
+00415     {\cf19 if}(ui->listWidget_images->count() == 0) {\cf19 return} QMessageBox::about({\cf17 this}, {\cf22 "Image list empty!"}, {\cf22 "Please choose an image file."});\par
+00416     {\cf19 try} \par
+00417     \{\par
+00418         {\cf19 if}(ui->checkBox_Date->checkState() == {\cf17 true})\{\par
+00419             SortDates_Ascending();\par
+00420         \}\par
+00421         {\cf19 else}\par
+00422         \{\par
+00423             SortImages_Ascending();\par
+00424         \}\par
+00425     \} {\cf19 catch} (...) \{\par
+00426         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00427     \}\par
+00428 \}\par
+00429 \par
+00431 {\cf18 void} MainWindow::on_sort_Descending_clicked()\par
+00432 \{\par
+00434     {\cf19 if}(ui->listWidget_images->count() == 0) {\cf19 return} QMessageBox::about({\cf17 this}, {\cf22 "Image list empty!"}, {\cf22 "Please choose an image file."});\par
+00435     {\cf19 try} \par
+00436     \{\par
+00437         {\cf19 if}(ui->checkBox_Date->checkState() == {\cf17 true})\{\par
+00438             SortDates_Descending();\par
+00439         \}\par
+00440         {\cf19 else}\par
+00441         \{\par
+00442             SortImages_Descending();\par
+00443         \}\par
+00444     \} {\cf19 catch} (...) \{\par
+00445         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00446     \}\par
+00447 \}\par
+00448 \par
+00450 {\cf18 void} MainWindow::on_but_sortClass_Ascending_clicked()\par
+00451 \{\par
+00452     SortClasses_Ascending(); \par
+00453 \}\par
+00454 \par
+00456 {\cf18 void} MainWindow::on_but_sortClass_Descending_clicked()\par
+00457 \{\par
+00458     SortClasses_Descending(); \par
+00459 \}\par
+00460 \par
+00462 {\cf18 void} MainWindow::on_comboBoxImages_activated({\cf17 const} QString &arg1)\par
+00463 \{\par
+00464     {\cf19 try} \par
+00465     \{\par
+00466         {\cf18 bool} valid = image.load(arg1);\par
+00467         {\cf19 if} (valid)\{\par
+00468             ui->label_DisplayImage->clear();\par
+00469             displayImage(image);\par
+00470          \}\par
+00471     \} {\cf19 catch} (...) \{\par
+00472         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00473     \}\par
+00474 \}\par
+00475 \par
+00477 {\cf18 void} MainWindow::on_comboBox_ChooseShape_activated({\cf17 const} QString &arg1)\par
+00478 \{\par
+00479     {\cf19 if} (arg1 == {\cf22 "Triangle"})\par
+00480     \{\par
+00481         ui->label_DisplayImage->shapeIndex = 1;\par
+00482         ui->label_DisplayImage->mPaintFlag = {\cf17 true};\par
+00483         shapeList.append(arg1);\par
+00484     \}\par
+00485     {\cf19 else} {\cf19 if}(arg1 == {\cf22 "Rectangle"})\{\par
+00486         ui->label_DisplayImage->shapeIndex = 2;\par
+00487         ui->label_DisplayImage->mPaintFlag = {\cf17 true};\par
+00488         shapeList.append(arg1);\par
+00489     \}\par
+00490     {\cf19 else} {\cf19 if}(arg1 == {\cf22 "Square"})\{\par
+00491         ui->label_DisplayImage->shapeIndex = 3;\par
+00492         ui->label_DisplayImage->mPaintFlag = {\cf17 true};\par
+00493         shapeList.append(arg1);\par
+00494     \}\par
+00495     {\cf19 else} {\cf19 if} (arg1 == {\cf22 "Trapezium"})\{\par
+00496         ui->label_DisplayImage->shapeIndex = 4;\par
+00497         ui->label_DisplayImage->mPaintFlag = {\cf17 true};\par
+00498         shapeList.append(arg1);\par
+00499 \par
+00500     \}\par
+00501     {\cf19 else} {\cf19 if}(arg1 == {\cf22 "Polygon"})\{\par
+00502         ui->label_DisplayImage->shapeIndex = 5;\par
+00503         ui->label_DisplayImage->mPaintFlag = {\cf17 true};\par
+00504         shapeList.append(arg1);\par
+00505 \par
+00506 \par
+00507     \}\par
+00508 \par
+00509 \par
+00510     {\cf20 // qDebug()<<shapeList.size();}\par
+00511     {\cf20 //Used for testing purpose to check shapeList size.}\par
+00512 \par
+00513 \par
+00514 \}\par
+00515 \par
+00517 QString MainWindow::on_classBrowse_clicked()\par
+00518 \{\par
+00520     QString filePath = QFileDialog::getOpenFileName({\cf17 this},\par
+00521                                                             tr({\cf22 "Open Class File"}),\par
+00522                                                             {\cf22 "C:/MyClassFolder"},\par
+00523                                                             {\cf22 "All Class Files (*.names);;names File"}\par
+00524                                                                 );\par
+00525     {\cf19 return} filePath;\par
+00526 \}\par
+00527 \par
+00529 {\cf18 void} MainWindow::on_comboBox_SetColour_activated({\cf17 const} QString &arg1)\par
+00530 \{\par
+00531     {\cf19 try} \par
+00532     \{\par
+00533         ui->label_DisplayImage->lineColour = arg1;\par
+00534     \} {\cf19 catch} (...) \{\par
+00535         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00536     \}\par
+00537 \}\par
+00538 \par
+00540 {\cf18 void} MainWindow::on_spinBoxPenWidth_valueChanged({\cf18 int} arg1)\par
+00541 \{\par
+00542     {\cf19 try} \par
+00543     \{\par
+00544         ui->label_DisplayImage->penWidth = arg1;\par
+00545     \} {\cf19 catch} (...) \{\par
+00546         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00547     \}\par
+00548 \}\par
+00549 \par
+00551 {\cf18 void} MainWindow::on_spinBox_RectHeight_valueChanged({\cf18 int} arg1)\par
+00552 \{\par
+00553     {\cf19 try} \par
+00554     \{\par
+00555         ui->label_DisplayImage->rectHeight = arg1;\par
+00556         ui->spinBox_Square->setValue(10);\par
+00557     \} {\cf19 catch} (...) \{\par
+00558         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00559     \}\par
+00560 \}\par
+00561 \par
+00563 {\cf18 void} MainWindow::on_spinBox_RectWidth_valueChanged({\cf18 int} arg1)\par
+00564 \{\par
+00565     {\cf19 try} \par
+00566     \{\par
+00567          ui->label_DisplayImage->rectWidth = arg1;\par
+00568     \} {\cf19 catch} (...) \{\par
+00569         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00570     \}\par
+00571 \}\par
+00572 \par
+00574 {\cf18 void} MainWindow::on_spinBox_Square_valueChanged({\cf18 int} arg1)\par
+00575 \{\par
+00576     {\cf19 try} \par
+00577     \{\par
+00578         ui->label_DisplayImage->squareDimension = arg1;\par
+00579     \} {\cf19 catch} (...) \{\par
+00580         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00581     \}\par
+00582 \}\par
+00583 \par
+00585 {\cf18 void} MainWindow::on_pushButton_Help_clicked()\par
+00586 \{\par
+00587     {\cf19 try} \par
+00588     \{\par
+00589         QMessageBox message;\par
+00590         message.setText({\cf22 "If you are unabe to see a rectangle on the image please choose the correct shape in the shape combo box. Also check the colour and width of the lines."});\par
+00591         message.exec();\par
+00592     \} {\cf19 catch} (...) \{\par
+00593         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00594     \}\par
+00595 \}\par
+00596 \par
+00598 {\cf18 void} MainWindow::on_pushButton_HelpSquare_clicked()\par
+00599 \{\par
+00600     {\cf19 try} \par
+00601     \{\par
+00602         QMessageBox message;\par
+00603         message.setText({\cf22 "If you are unabe to see a square on the image please choose the correct shape in the shape combo box. Also check the colour and width of the lines."});\par
+00604         message.exec();\par
+00605     \} {\cf19 catch} (...) \{\par
+00606         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00607     \}\par
+00608 \}\par
+00609 \par
+00611 {\cf18 void} MainWindow::on_spinBoxVerticies_valueChanged({\cf18 int} arg1)\par
+00612 \{\par
+00613     {\cf19 try} \par
+00614     \{\par
+00615         ui->label_DisplayImage->verticies=arg1;\par
+00616     \} {\cf19 catch} (...) \{\par
+00617         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00618     \}\par
+00619 \}\par
+00620 \par
+00622 QString MainWindow::get_shape_index()\par
+00623 \{\par
+00624     QString index_text = ui->comboBox_ChooseShape->currentText();\par
+00625     {\cf19 return} index_text;\par
+00626 \}\par
+00627 \par
+00629 QString MainWindow::get_image_file_name()\par
+00630 \{\par
+00631     QString filePath = ui->comboBoxImages->currentText();\par
+00632     QFileInfo fi(filePath);\par
+00633     QString fileName = fi.fileName();\par
+00634     {\cf19 return} fileName;\par
+00635 \}\par
+00636 \par
+00638 {\cf18 void} MainWindow::on_SaveImageFile_clicked()\par
+00639 \{\par
+00640     {\cf19 try} \par
+00641     \{\par
+00642         annotations a;\par
+00643         a.save_details();\par
+00644     \} {\cf19 catch} (...) \{\par
+00645         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00646     \}\par
+00647 \}\par
+00648 \par
+00650 {\cf18 void} MainWindow::on_AnnotatedFiles_clicked()\par
+00651 \{\par
+00652     {\cf19 try} \par
+00653     \{\par
+00654         QString fileName = QFileDialog::getOpenFileName({\cf17 this},tr({\cf22 "Open Text File"}), {\cf22 ""}, tr({\cf22 "Text Files (*.annotations)"}));\par
+00655             QFile file1(fileName);\par
+00656             {\cf19 if}(!file1.open(QIODevice::ReadOnly | QIODevice::Text))\par
+00657                 {\cf19 return};\par
+00658             QTextBrowser *b = {\cf17 new} QTextBrowser;\par
+00659             b->setText(file1.readAll());\par
+00660             b->show();\par
+00661     \} {\cf19 catch} (...) \{\par
+00662         qDebug()<<{\cf22 "Handling exceptions not caught in slot"};\par
+00663     \}\par
+00664 \}\par
+00665 \par
+00666 \par
+}
+}

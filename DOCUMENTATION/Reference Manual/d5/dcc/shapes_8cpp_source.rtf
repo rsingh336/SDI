@@ -1,0 +1,708 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\comment begin body}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+shapes.cpp\par \pard\plain 
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 \par
+00003 {\cf21 #include "shapes.h"}\par
+00004 \par
+00010 shapes::shapes(QWidget *parent)\par
+00011     :QLabel(parent)\par
+00012     , mP1X(), mP1Y(), mP2X(), mP2Y()\par
+00013     , mP3X(), mP3Y(), mP4X(), mP4Y()\par
+00014     , mP5X(), mP5Y(), mP6X(), mP6Y()\par
+00015     , mP7X(), mP7Y(), mP8X(), mP8Y()\par
+00016     , mFirstClick(true), mSecondClick(false)\par
+00017     , mThirdClick(false), mFourthClick(false)\par
+00018     , mSeventhClick(false), mEighthClick(false), mPaintFlag(false)\par
+00019 \{\par
+00020  ;\par
+00021 \}\par
+00022 \par
+00028 {\cf18 void} shapes::mousePressEvent(QMouseEvent *event)\{\par
+00029 \par
+00030     {\cf19 if} (shapeIndex == 1)\{ \par
+00031 \par
+00032                 {\cf19 if}(event->button() == Qt::LeftButton)\{ \par
+00033                     {\cf19 if} (mFirstClick == {\cf17 true})\{ \par
+00034                         mFirstClick = {\cf17 true};\par
+00035                         mP1X = {\cf17 event}->x(); \par
+00036                         mP1Y = {\cf17 event}->y(); \par
+00037                         mFirstClick = {\cf17 false};\par
+00038                         mSecondClick = {\cf17 true};\par
+00039                         mPaintFlag = {\cf17 true};\par
+00040                     \}\par
+00041                     {\cf19 else} {\cf19 if}(mSecondClick == {\cf17 true})\par
+00042                     \{\par
+00043                         mP2X = {\cf17 event}->x();\par
+00044                         mP2Y = {\cf17 event}->y();\par
+00045                         mFirstClick = {\cf17 false};\par
+00046                         mSecondClick = {\cf17 false};\par
+00047                         mThirdClick = {\cf17 true};\par
+00048                         mPaintFlag = {\cf17 true};\par
+00049                     \}\par
+00050                     {\cf19 else} {\cf19 if}(mThirdClick == {\cf17 true})\par
+00051                     \{\par
+00052                         mP3X = {\cf17 event}->x();\par
+00053                         mP3Y = {\cf17 event}->y();\par
+00054                         mThirdClick = {\cf17 false};\par
+00055                         update();\par
+00056                     \}\par
+00057                 \}\par
+00058             \}\par
+00059         {\cf19 else} {\cf19 if} (shapeIndex == 2)\{ \par
+00060             {\cf19 if}(event->button() == Qt::LeftButton)\{ \par
+00061                 mFirstClick = {\cf17 true};\par
+00062                 mP1X = {\cf17 event}->x();\par
+00063                 mP1Y = {\cf17 event}->y();\par
+00064                 mPaintFlag = {\cf17 true};\par
+00065                 update();\par
+00066 \par
+00067         \}\par
+00068         \}\par
+00069         {\cf19 else} {\cf19 if}(shapeIndex == 3)\{ \par
+00070                 {\cf19 if}(event->button() == Qt::LeftButton)\{ \par
+00071                     mFirstClick = {\cf17 true};\par
+00072                     mP1X = {\cf17 event}->x();\par
+00073                     mP1Y = {\cf17 event}->y();\par
+00074                     mPaintFlag = {\cf17 true};\par
+00075                     update();\par
+00076 \par
+00077             \}\par
+00078             \}\par
+00079         {\cf19 else} {\cf19 if}(shapeIndex == 4)\{ \par
+00080             {\cf19 if}(event->button() == Qt::LeftButton)\{ \par
+00081                 {\cf19 if} (mFirstClick == {\cf17 true})\{ \par
+00082                     mP1X = {\cf17 event}->x();\par
+00083                     mP1Y = {\cf17 event}->y();\par
+00084                     mFirstClick = {\cf17 false};\par
+00085                     mSecondClick = {\cf17 true};\par
+00086                     mPaintFlag = {\cf17 true};\par
+00087 \par
+00088                 \}\par
+00089                 {\cf19 else} {\cf19 if}(mSecondClick == {\cf17 true}) \par
+00090                 \{\par
+00091                     mP2X = {\cf17 event}->x();\par
+00092                     mP2Y = {\cf17 event}->y();\par
+00093                     mFirstClick = {\cf17 false};\par
+00094                     mSecondClick = {\cf17 false};\par
+00095                     mThirdClick = {\cf17 true};\par
+00096                     mPaintFlag = {\cf17 true};\par
+00097 \par
+00098 \par
+00099                 \}\par
+00100                 {\cf19 else} {\cf19 if}(mThirdClick == {\cf17 true}) \par
+00101                 \{\par
+00102                     mP3X = {\cf17 event}->x();\par
+00103                     mP3Y = {\cf17 event}->y();\par
+00104                     mThirdClick = {\cf17 false};\par
+00105                     mPaintFlag = {\cf17 true};\par
+00106                     mFourthClick = {\cf17 true};\par
+00107 \par
+00108 \par
+00109                 \}\par
+00110                 {\cf19 else} {\cf19 if}(mFourthClick == {\cf17 true}) \par
+00111                 \{\par
+00112                     mP4X = {\cf17 event}->x();\par
+00113                     mP4Y = {\cf17 event}->y();\par
+00114                     mFourthClick = {\cf17 false};\par
+00115                     mPaintFlag = {\cf17 true};\par
+00116                     update();\par
+00117                 \}\par
+00118             \}\par
+00119         \}\par
+00120     {\cf19 else} {\cf19 if}(shapeIndex == 5)\{ \par
+00121         {\cf19 if}(event->button() == Qt::LeftButton)\{\par
+00122             {\cf19 if} (verticies == 5)\{\par
+00123                 {\cf19 if} (mFirstClick == {\cf17 true})\{\par
+00124                     mP1X = {\cf17 event}->x();\par
+00125                     mP1Y = {\cf17 event}->y();\par
+00126                     mFirstClick = {\cf17 false};\par
+00127                     mSecondClick = {\cf17 true};\par
+00128                     mPaintFlag = {\cf17 true};\par
+00129                 \}\par
+00130                 {\cf19 else} {\cf19 if}(mSecondClick == {\cf17 true})\par
+00131                 \{\par
+00132                     mP2X = {\cf17 event}->x();\par
+00133                     mP2Y = {\cf17 event}->y();\par
+00134                     mSecondClick = {\cf17 false};\par
+00135                     mThirdClick = {\cf17 true};\par
+00136                     mPaintFlag = {\cf17 true};\par
+00137                 \}\par
+00138                 {\cf19 else} {\cf19 if}(mThirdClick == {\cf17 true})\par
+00139                 \{\par
+00140                     mP3X = {\cf17 event}->x();\par
+00141                     mP3Y = {\cf17 event}->y();\par
+00142                     mThirdClick = {\cf17 false};\par
+00143                     mPaintFlag = {\cf17 true};\par
+00144                     mFourthClick = {\cf17 true};\par
+00145                 \}\par
+00146                 {\cf19 else} {\cf19 if}(mFourthClick == {\cf17 true})\par
+00147                 \{\par
+00148                     mP4X = {\cf17 event}->x();\par
+00149                     mP4Y = {\cf17 event}->y();\par
+00150                     mFourthClick = {\cf17 false};\par
+00151                     mPaintFlag = {\cf17 true};\par
+00152                     mFifthClick = {\cf17 true};\par
+00153                 \}\par
+00154                 {\cf19 else} {\cf19 if}(mFifthClick == {\cf17 true})\par
+00155                 \{\par
+00156                     mP5X = {\cf17 event}->x();\par
+00157                     mP5Y = {\cf17 event}->y();\par
+00158                     mFifthClick = {\cf17 false};\par
+00159                     mPaintFlag = {\cf17 true};\par
+00160                     update();\par
+00161                 \}\par
+00162             \}\par
+00163         {\cf19 else} {\cf19 if}(verticies == 6)\{ \par
+00164                 {\cf19 if} (mFirstClick == {\cf17 true})\{\par
+00165                 mP1X = {\cf17 event}->x();\par
+00166                 mP1Y = {\cf17 event}->y();\par
+00167                 mFirstClick = {\cf17 false};\par
+00168                 mSecondClick = {\cf17 true};\par
+00169                 mPaintFlag = {\cf17 true};\par
+00170                 \}\par
+00171                 {\cf19 else} {\cf19 if}(mSecondClick == {\cf17 true})\par
+00172                 \{\par
+00173                     mP2X = {\cf17 event}->x();\par
+00174                     mP2Y = {\cf17 event}->y();\par
+00175                     mSecondClick = {\cf17 false};\par
+00176                     mThirdClick = {\cf17 true};\par
+00177                     mPaintFlag = {\cf17 true};\par
+00178                 \}\par
+00179                 {\cf19 else} {\cf19 if}(mThirdClick == {\cf17 true})\par
+00180                 \{\par
+00181                     mP3X = {\cf17 event}->x();\par
+00182                     mP3Y = {\cf17 event}->y();\par
+00183                     mThirdClick = {\cf17 false};\par
+00184                     mPaintFlag = {\cf17 true};\par
+00185                     mFourthClick = {\cf17 true};\par
+00186                 \}\par
+00187                 {\cf19 else} {\cf19 if}(mFourthClick == {\cf17 true})\par
+00188                 \{\par
+00189                     mP4X = {\cf17 event}->x();\par
+00190                     mP4Y = {\cf17 event}->y();\par
+00191                     mFourthClick = {\cf17 false};\par
+00192                     mPaintFlag = {\cf17 true};\par
+00193                     mFifthClick = {\cf17 true};\par
+00194                 \}\par
+00195                 {\cf19 else} {\cf19 if}(mFifthClick == {\cf17 true})\par
+00196                 \{\par
+00197                     mP5X = {\cf17 event}->x();\par
+00198                     mP5Y = {\cf17 event}->y();\par
+00199                     mFifthClick = {\cf17 false};\par
+00200                     mPaintFlag = {\cf17 true};\par
+00201                     mSixthClick = {\cf17 true};\par
+00202                 \}\par
+00203                 {\cf19 else} {\cf19 if}(mSixthClick == {\cf17 true})\par
+00204                 \{\par
+00205                     mP6X = {\cf17 event}->x();\par
+00206                     mP6Y = {\cf17 event}->y();\par
+00207                     mSixthClick = {\cf17 false};\par
+00208                     mPaintFlag = {\cf17 true};\par
+00209                     update();\par
+00210                 \}\par
+00211             \}\par
+00212             {\cf19 else} {\cf19 if}(verticies == 7)\{ \par
+00213                 {\cf19 if} (mFirstClick == {\cf17 true})\{\par
+00214                     mP1X = {\cf17 event}->x();\par
+00215                     mP1Y = {\cf17 event}->y();\par
+00216                     mFirstClick = {\cf17 false};\par
+00217                     mSecondClick = {\cf17 true};\par
+00218                     mPaintFlag = {\cf17 true};\par
+00219                 \}\par
+00220                 {\cf19 else} {\cf19 if}(mSecondClick == {\cf17 true})\par
+00221                 \{\par
+00222                     mP2X = {\cf17 event}->x();\par
+00223                     mP2Y = {\cf17 event}->y();\par
+00224                     mSecondClick = {\cf17 false};\par
+00225                     mThirdClick = {\cf17 true};\par
+00226                     mPaintFlag = {\cf17 true};\par
+00227                 \}\par
+00228                 {\cf19 else} {\cf19 if}(mThirdClick == {\cf17 true})\par
+00229                 \{\par
+00230                     mP3X = {\cf17 event}->x();\par
+00231                     mP3Y = {\cf17 event}->y();\par
+00232                     mThirdClick = {\cf17 false};\par
+00233                     mPaintFlag = {\cf17 true};\par
+00234                     mFourthClick = {\cf17 true};\par
+00235                 \}\par
+00236                 {\cf19 else} {\cf19 if}(mFourthClick == {\cf17 true})\par
+00237                 \{\par
+00238                     mP4X = {\cf17 event}->x();\par
+00239                     mP4Y = {\cf17 event}->y();\par
+00240                     mFourthClick = {\cf17 false};\par
+00241                     mPaintFlag = {\cf17 true};\par
+00242                     mFifthClick = {\cf17 true};\par
+00243                 \}\par
+00244                 {\cf19 else} {\cf19 if}(mFifthClick == {\cf17 true})\par
+00245                 \{\par
+00246                     mP5X = {\cf17 event}->x();\par
+00247                     mP5Y = {\cf17 event}->y();\par
+00248                     mFifthClick = {\cf17 false};\par
+00249                     mPaintFlag = {\cf17 true};\par
+00250                     mSixthClick = {\cf17 true};\par
+00251                 \}\par
+00252                 {\cf19 else} {\cf19 if}(mSixthClick == {\cf17 true})\par
+00253                 \{\par
+00254                     mP6X = {\cf17 event}->x();\par
+00255                     mP6Y = {\cf17 event}->y();\par
+00256                     mSixthClick = {\cf17 false};\par
+00257                     mPaintFlag = {\cf17 true};\par
+00258                     mSeventhClick = {\cf17 true};\par
+00259                 \}\par
+00260                 {\cf19 else} {\cf19 if}(mSeventhClick == {\cf17 true})\par
+00261                 \{\par
+00262                     mP7X = {\cf17 event}->x();\par
+00263                     mP7Y = {\cf17 event}->y();\par
+00264                     mSeventhClick = {\cf17 false};\par
+00265                     mPaintFlag = {\cf17 true};\par
+00266                     update();\par
+00267                 \}\par
+00268             \}\par
+00269             {\cf19 else} {\cf19 if}(verticies == 8)\{ \par
+00270                     {\cf19 if} (mFirstClick == {\cf17 true})\{\par
+00271                         mP1X = {\cf17 event}->x();\par
+00272                         mP1Y = {\cf17 event}->y();\par
+00273                         mFirstClick = {\cf17 false};\par
+00274                         mSecondClick = {\cf17 true};\par
+00275                         mPaintFlag = {\cf17 true};\par
+00276                     \}\par
+00277                     {\cf19 else} {\cf19 if}(mSecondClick == {\cf17 true})\par
+00278                     \{\par
+00279                         mP2X = {\cf17 event}->x();\par
+00280                         mP2Y = {\cf17 event}->y();\par
+00281                         mSecondClick = {\cf17 false};\par
+00282                         mThirdClick = {\cf17 true};\par
+00283                         mPaintFlag = {\cf17 true};\par
+00284                     \}\par
+00285                     {\cf19 else} {\cf19 if}(mThirdClick == {\cf17 true})\par
+00286                     \{\par
+00287                         mP3X = {\cf17 event}->x();\par
+00288                         mP3Y = {\cf17 event}->y();\par
+00289                         mThirdClick = {\cf17 false};\par
+00290                         mPaintFlag = {\cf17 true};\par
+00291                         mFourthClick = {\cf17 true};\par
+00292                     \}\par
+00293                     {\cf19 else} {\cf19 if}(mFourthClick == {\cf17 true})\par
+00294                     \{\par
+00295                         mP4X = {\cf17 event}->x();\par
+00296                         mP4Y = {\cf17 event}->y();\par
+00297                         mFourthClick = {\cf17 false};\par
+00298                         mPaintFlag = {\cf17 true};\par
+00299                         mFifthClick = {\cf17 true};\par
+00300                     \}\par
+00301                     {\cf19 else} {\cf19 if}(mFifthClick == {\cf17 true})\par
+00302                     \{\par
+00303                         mP5X = {\cf17 event}->x();\par
+00304                         mP5Y = {\cf17 event}->y();\par
+00305                         mFifthClick = {\cf17 false};\par
+00306                         mPaintFlag = {\cf17 true};\par
+00307                         mSixthClick = {\cf17 true};\par
+00308                     \}\par
+00309                     {\cf19 else} {\cf19 if}(mSixthClick == {\cf17 true})\par
+00310                     \{\par
+00311                         mP6X = {\cf17 event}->x();\par
+00312                         mP6Y = {\cf17 event}->y();\par
+00313                         mSixthClick = {\cf17 false};\par
+00314                         mPaintFlag = {\cf17 true};\par
+00315                         mSeventhClick = {\cf17 true};\par
+00316                     \}\par
+00317                     {\cf19 else} {\cf19 if}(mSeventhClick == {\cf17 true})\par
+00318                     \{\par
+00319                         mP7X = {\cf17 event}->x();\par
+00320                         mP7Y = {\cf17 event}->y();\par
+00321                         mSeventhClick = {\cf17 false};\par
+00322                         mPaintFlag = {\cf17 true};\par
+00323                         mEighthClick = {\cf17 true};\par
+00324                     \}\par
+00325                     {\cf19 else} {\cf19 if}(mEighthClick == {\cf17 true})\par
+00326                     \{\par
+00327                         mP8X = {\cf17 event}->x();\par
+00328                         mP8Y = {\cf17 event}->y();\par
+00329                         mEighthClick = {\cf17 false};\par
+00330                         mPaintFlag = {\cf17 true};\par
+00331                         update();\par
+00332                     \}\par
+00333                 \}\par
+00334         \}\par
+00335     \}\par
+00336 \}\par
+00337 \par
+00338 \par
+00343 {\cf18 void} shapes::paintEvent(QPaintEvent *event)\par
+00344 \{\par
+00345     QLabel::paintEvent(event);\par
+00346     QPainter painter({\cf17 this}); \par
+00347     QPen paintpen(lineColour); \par
+00348     paintpen.setWidth(penWidth); \par
+00349     painter.setPen(paintpen);\par
+00350 \par
+00351 \par
+00352 \par
+00353     {\cf19 if}(mPaintFlag == {\cf17 true} && shapeIndex == 1)\{\par
+00354         mFirstClick = {\cf17 true};\par
+00355 \par
+00356         QPoint p1; \par
+00357         p1.setX(mP1X);\par
+00358         p1.setY(mP1Y);\par
+00359         pointsTriangle[0] = \{p1\};\par
+00360         painter.drawPoint(p1); \par
+00361 \par
+00362         QPoint p2;  \par
+00363         p2.setX(mP2X);\par
+00364         p2.setY(mP2Y);\par
+00365         painter.drawPoint(p2); \par
+00366         pointsTriangle[1] = \{p2\}; \par
+00367 \par
+00368 \par
+00369         QPoint p3; \par
+00370         p3.setX(mP3X);\par
+00371         p3.setY(mP3Y);\par
+00372         painter.drawPoint(p3); \par
+00373         pointsTriangle[2] = \{p3\};\par
+00374         painter.drawPolygon(pointsTriangle,3); \par
+00375         painter.setFont(QFont({\cf22 "Arial"}, 30));\par
+00376         painter.drawText(p3,class_text); \par
+00377 \par
+00378 \par
+00379 \par
+00380         \}\par
+00381     {\cf19 else} {\cf19 if} (mPaintFlag == {\cf17 true} && shapeIndex == 2)\{ \par
+00382         mFirstClick = {\cf17 true};\par
+00383         QPoint p1;\par
+00384         p1.setX(mP1X);\par
+00385         p1.setY(mP1Y);\par
+00386         QRect rect(mP1X,mP1Y, rectHeight,rectWidth);\par
+00387         painter.drawRect(rect);\par
+00388         painter.setFont(QFont({\cf22 "Arial"}, 30));\par
+00389         painter.drawText(p1,class_text); \par
+00390     \}\par
+00391     {\cf19 else} {\cf19 if}(mPaintFlag == {\cf17 true} && shapeIndex == 3)\{ \par
+00392         mFirstClick = {\cf17 true};\par
+00393         QPoint p1;\par
+00394         p1.setX(mP1X);\par
+00395         p1.setY(mP1Y);\par
+00396         QRect rect(mP1X,mP1Y, squareDimension,squareDimension);\par
+00397         painter.drawRect(rect);\par
+00398         painter.setFont(QFont({\cf22 "Arial"}, 30));\par
+00399         painter.drawText(p1,class_text); \par
+00400     \}\par
+00401    {\cf19 else} {\cf19 if}(mPaintFlag == {\cf17 true} && shapeIndex == 4)\{\par
+00402         mFirstClick = {\cf17 true};\par
+00403         QPoint p1;\par
+00404         p1.setX(mP1X);\par
+00405         p1.setY(mP1Y);\par
+00406         pointsTrap[0] = \{p1\};\par
+00407         painter.drawPoint(p1); \par
+00408 \par
+00409         QPoint p2;\par
+00410         p2.setX(mP2X);\par
+00411         p2.setY(mP2Y);\par
+00412         painter.drawPoint(p2);\par
+00413         pointsTrap[1] = \{p2\}; \par
+00414 \par
+00415         QPoint p3;\par
+00416         p3.setX(mP3X);\par
+00417         p3.setY(mP3Y);\par
+00418         painter.drawPoint(p3); \par
+00419         pointsTrap[2] = \{p3\};\par
+00420 \par
+00421         QPoint p4;\par
+00422         p4.setX(mP4X);\par
+00423         p4.setY(mP4Y);\par
+00424         painter.drawPoint(p4); \par
+00425         pointsTrap[3] = \{p4\};\par
+00426         painter.drawPolygon(pointsTrap,4);\par
+00427         painter.setFont(QFont({\cf22 "Arial"}, 30));\par
+00428         painter.drawText(p4,class_text); \par
+00429 \par
+00430 \par
+00431 \par
+00432     \}\par
+00433     {\cf19 else} {\cf19 if}(mPaintFlag == {\cf17 true} && shapeIndex == 5)\{\par
+00434         {\cf19 if}(verticies == 5)\{\par
+00435             mFirstClick = {\cf17 true};\par
+00436 \par
+00437             QPointF p1;\par
+00438             p1.setX(mP1X);\par
+00439             p1.setY(mP1Y);\par
+00440             pointsPent[0] = \{p1\};\par
+00441             painter.drawPoint(p1);\par
+00442             QPointF p2;\par
+00443             p2.setX(mP2X);\par
+00444             p2.setY(mP2Y);\par
+00445             pointsPent[1] = \{p2\};\par
+00446 \par
+00447             QPointF p3;\par
+00448             p3.setX(mP3X);\par
+00449             p3.setY(mP3Y);\par
+00450             painter.drawPoint(p3);\par
+00451             pointsPent[2] = \{p3\};\par
+00452 \par
+00453             QPointF p4;\par
+00454             p4.setX(mP4X);\par
+00455             p4.setY(mP4Y);\par
+00456             painter.drawPoint(p4);\par
+00457             pointsPent[3] = \{p4\};\par
+00458 \par
+00459             QPoint p5; \par
+00460             p5.setX(mP5X);\par
+00461             p5.setY(mP5Y);\par
+00462             painter.drawPoint(p5);\par
+00463             pointsPent[4] = \{p5\};\par
+00464             painter.drawPolygon(pointsPent,5); \par
+00465             painter.setFont(QFont({\cf22 "Arial"}, 30));\par
+00466             painter.drawText(p5,class_text); \par
+00467         \}\par
+00468         {\cf19 else} {\cf19 if}(verticies == 6)\{ \par
+00469             mFirstClick = {\cf17 true};\par
+00470             QPointF p1;\par
+00471             p1.setX(mP1X);\par
+00472             p1.setY(mP1Y);\par
+00473             pointsHex[0] = \{p1\};\par
+00474             painter.drawPoint(p1);\par
+00475             QPointF p2;\par
+00476             p2.setX(mP2X);\par
+00477             p2.setY(mP2Y);\par
+00478             painter.setPen(paintpen);\par
+00479             painter.drawPoint(p2);\par
+00480             pointsHex[1] = \{p2\};\par
+00481 \par
+00482             QPointF p3;\par
+00483             p3.setX(mP3X);\par
+00484             p3.setY(mP3Y);\par
+00485             painter.setPen(paintpen);\par
+00486             painter.drawPoint(p3);\par
+00487             pointsHex[2] = \{p3\};\par
+00488             QPointF p4;\par
+00489             p4.setX(mP4X);\par
+00490             p4.setY(mP4Y);\par
+00491             painter.drawPoint(p4);\par
+00492             pointsHex[3] = \{p4\};\par
+00493 \par
+00494             QPoint p5;\par
+00495             p5.setX(mP5X);\par
+00496             p5.setY(mP5Y);\par
+00497             painter.drawPoint(p5);\par
+00498             pointsHex[4] = \{p5\};\par
+00499 \par
+00500             QPoint p6; \par
+00501             p6.setX(mP6X);\par
+00502             p6.setY(mP6Y);\par
+00503             painter.drawPoint(p6);\par
+00504             pointsHex[5] = \{p6\};\par
+00505             painter.drawPolygon(pointsHex,6); \par
+00506             painter.setFont(QFont({\cf22 "Arial"}, 30));\par
+00507             painter.drawText(p6,class_text); \par
+00508         \}\par
+00509         {\cf19 else} {\cf19 if}(verticies == 7)\{ \par
+00510             mFirstClick = {\cf17 true};\par
+00511 \par
+00512             QPointF p1;\par
+00513             p1.setX(mP1X);\par
+00514             p1.setY(mP1Y);\par
+00515             pointsHep[0] = \{p1\};\par
+00516             painter.drawPoint(p1);\par
+00517 \par
+00518             QPointF p2;\par
+00519             p2.setX(mP2X);\par
+00520             p2.setY(mP2Y);\par
+00521             painter.drawPoint(p2);\par
+00522             pointsHep[1] = \{p2\};\par
+00523 \par
+00524             QPointF p3;\par
+00525             p3.setX(mP3X);\par
+00526             p3.setY(mP3Y);\par
+00527             painter.drawPoint(p3);\par
+00528             pointsHep[2] = \{p3\};\par
+00529             QPointF p4;\par
+00530             p4.setX(mP4X);\par
+00531             p4.setY(mP4Y);\par
+00532             painter.drawPoint(p4);\par
+00533             pointsHep[3] = \{p4\};\par
+00534 \par
+00535             QPoint p5;\par
+00536             p5.setX(mP5X);\par
+00537             p5.setY(mP5Y);\par
+00538             painter.drawPoint(p5);\par
+00539             pointsHep[4] = \{p5\};\par
+00540 \par
+00541             QPoint p6;\par
+00542             p6.setX(mP6X);\par
+00543             p6.setY(mP6Y);\par
+00544             painter.drawPoint(p6);\par
+00545             pointsHep[5] = \{p6\};\par
+00546 \par
+00547             QPoint p7; \par
+00548             p7.setX(mP7X);\par
+00549             p7.setY(mP7Y);\par
+00550             painter.drawPoint(p7);\par
+00551             pointsHep[6] = \{p7\};\par
+00552             painter.drawPolygon(pointsHep,7); \par
+00553             painter.setFont(QFont({\cf22 "Arial"}, 30));\par
+00554             painter.drawText(p7,class_text); \par
+00555         \}\par
+00556         {\cf19 else} {\cf19 if}(verticies == 8)\{\par
+00557             mFirstClick = {\cf17 true};\par
+00558 \par
+00559             QPointF p1;\par
+00560             p1.setX(mP1X);\par
+00561             p1.setY(mP1Y);\par
+00562             pointsOct[0] = \{p1\};\par
+00563             painter.drawPoint(p1);\par
+00564 \par
+00565             QPointF p2;\par
+00566             p2.setX(mP2X);\par
+00567             p2.setY(mP2Y);\par
+00568             painter.drawPoint(p2);\par
+00569             pointsOct[1] = \{p2\};\par
+00570 \par
+00571             QPointF p3;\par
+00572             p3.setX(mP3X);\par
+00573             p3.setY(mP3Y);\par
+00574             painter.drawPoint(p3);\par
+00575             pointsOct[2] = \{p3\};\par
+00576             QPointF p4;\par
+00577             p4.setX(mP4X);\par
+00578             p4.setY(mP4Y);\par
+00579             painter.drawPoint(p4);\par
+00580             pointsOct[3] = \{p4\};\par
+00581 \par
+00582             QPoint p5;\par
+00583             p5.setX(mP5X);\par
+00584             p5.setY(mP5Y);\par
+00585             painter.drawPoint(p5);\par
+00586             pointsOct[4] = \{p5\};\par
+00587 \par
+00588             QPoint p6;\par
+00589             p6.setX(mP6X);\par
+00590             p6.setY(mP6Y);\par
+00591             painter.drawPoint(p6);\par
+00592             pointsOct[5] = \{p6\};\par
+00593 \par
+00594             QPoint p7;\par
+00595             p7.setX(mP7X);\par
+00596             p7.setY(mP7Y);\par
+00597             painter.drawPoint(p7);\par
+00598             pointsOct[6] = \{p7\};\par
+00599 \par
+00600             QPoint p8; \par
+00601             p8.setX(mP8X);\par
+00602             p8.setY(mP8Y);\par
+00603             painter.drawPoint(p8);\par
+00604             pointsOct[7] = \{p8\};\par
+00605             painter.drawPolygon(pointsOct,8); \par
+00606             painter.setFont(QFont({\cf22 "Arial"}, 30));\par
+00607             painter.drawText(p8,class_text); \par
+00608         \}\par
+00609     \}\par
+00610 \}\par
+}
+}
